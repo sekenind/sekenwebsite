@@ -197,7 +197,7 @@ table tbody tr th {
 }
 tr td,
 tr th {
-  padding: 4px 9px;
+  /*padding: 4px 9px;*/
   border: 1px solid #fff;
   text-align: left; /* LTR */
 }
@@ -1836,7 +1836,7 @@ body{
 
 #header img{
     width: 140px;
-    padding-left: 205px;
+    padding-left: 108px;
     padding-top: 3px;
 }
 #secondary-menu-links{
@@ -2106,7 +2106,7 @@ input.form-text, textarea.form-textarea, select.form-select {
    /* background-color: transparent;*/
     background-color: rgba(25,25,25,0.3);
     position: absolute;
-    margin: 37% 0px 0px 11%;
+    margin: 46% 0px 0px 11%;
     width: 48%;
     /* padding: 0px 20px; */
     text-align: center;
@@ -2355,4 +2355,7 @@ video{
 }
 #block-views-inviteview-block{
     margin-bottom: 25%;
+}
+.view-id-serviceimage .views-view-grid cols-1 tr{
+    display: none;
 }
